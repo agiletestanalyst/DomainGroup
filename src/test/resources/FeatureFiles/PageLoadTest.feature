@@ -10,4 +10,12 @@ Feature: Acceptance testing to validate that all the TOP header pages
     And The DOM loads successfully showing status as completed   
    	Examples:
     |top header menu|expected title	|
-    |Rent			|rentPageTitle	|			
+    |Rent			|rentPageTitle	|	
+    |Buy			|buyPageTitle	|	
+    |New homes		|NewHomesPageTitle|
+    |Sold			|SoldPageTitle	|
+    |Commercial		|CommercialPageTitle|
+    |Sell			|SellPageTitle	|
+    |News			|MoneynMarketsPageTitle	|
+    |Agents			|AgentsPageTitle|
+    |More-Share		|MoreSharePageTitle|
